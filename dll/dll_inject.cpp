@@ -12,8 +12,8 @@ BOOL APIENTRY DllMain(HMODULE hModule, DWORD ul_reason_for_call, LPVOID lpReserv
         case DLL_PROCESS_ATTACH:
             MessageBox(
                     nullptr,
-                    "Zlls was here",
-                    "0x88",
+                    "Injection successful",
+                    "Auax 0x88",
                     MB_OK
             );
             break;
